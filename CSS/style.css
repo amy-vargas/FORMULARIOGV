@@ -7,7 +7,7 @@ align-items: center;
 height: 100vh;
 margin: 0;
 }
-
+/*  esta seccion contiene lo que es el color diseño que se le dara a la tabla de formulario  */
 .formulario-container {
     background-color: azure;
     padding: 20px;
@@ -16,21 +16,21 @@ margin: 0;
     width: px;
     text-align: center;
 }
-
+/* agregamos estilo a la imagen el tamaño como la queremos */
 .imagen-perfil {
     display: flex;
 width: 175px;
 height: 175px;
 border-radius: 100%;
 }
-
+/* en esta etiqueta le damos formato label que sirve para pedirle los datos al usuario*/
 label {
     display: block;
     font-weight: bold;
     margin-top: 10px;
 
 }
-
+/* esta seccion agregamos los estilos de campos de entrada, en espacio, bordes se busca mejorar la apariencia*/
 input {
     width: 100%;
     padding: 8px;
@@ -38,7 +38,7 @@ input {
     border:1px solid #ccc;
     border radius:5px;
 }
-
+/* en esta seccion creamos lo que es el boton de enviar y le añadimos color forma para hacerlo mas interactivo*/
 button {
     background-color: aquamarine;
     color: rgb(96, 68, 31);
