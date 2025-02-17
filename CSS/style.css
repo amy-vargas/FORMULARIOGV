@@ -1,0 +1,53 @@
+body {
+font-family: Arial, sans-serif;
+background-color: beige;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.formulario-container {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2);
+    width: px;
+    text-align: center;
+}
+
+.imagen-perfil {
+    display: flex;
+width: 175px;
+height: 175px;
+border-radius: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin top: 5px;
+    border:1px solid #ccc;
+    border radius:5px;
+}
+
+button {
+    background-color: aquamarine;
+    color: rgb(96, 68, 31);
+    padding: 11px;
+    border:  none;
+    border-radius: px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5 );
+} 
